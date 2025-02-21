@@ -19,7 +19,7 @@ Siga os passos abaixo para executar o projeto em sua máquina localmente:
 1. **Clone o repositório** para sua máquina local:
 
    ```bash
-   git clone [url]
+   git clone https://github.com/FabricioLugao/PlayTube.git
    ```
 
 2. **Entre no diretório do projeto**:
