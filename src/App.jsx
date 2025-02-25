@@ -22,7 +22,7 @@ function App() {
           <ul>
             <SidebarItem
               texto="Início"
-              subtitulo="Clique para ver os vídeos em destaque"
+              subtitulo="Clique para ver os vídeos em "
             />
             <SidebarItem texto="Sobre" subtitulo="Saiba mais" />
             <SidebarItem texto="Contato" subtitulo="Entre em contato conosco" />
