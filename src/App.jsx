@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import SidebarItem from "./components/SidebarItem/SidebarItem";
+import Rodape from "./components/Rodape/Rodape";
 
 function App() {
   function clickVideo() {
@@ -114,10 +115,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div className="footer">
-        <p>&copy; 2025 PlayTube</p>
-      </div>
+<Rodape/>
     </div>
   );
 }
