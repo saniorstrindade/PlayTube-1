@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import SidebarItem from "./components/SidebarItem/SidebarItem";
 import Rodape from "./components/Rodape/Rodape";
+import Topbar from "./components/Topbar/Topbar";
 
 function App() {
   function clickVideo() {
@@ -10,13 +11,7 @@ function App() {
 
   return (
     <div>
-      <div className="topbar">
-        <div className="site-name">PlayTube</div>
-        <div className="links">
-          <a href="#">Cadastrar</a>
-          <a href="#">Logar</a>
-        </div>
-      </div>
+      <Topbar />
 
       <div className="container">
         <div className="sidebar">
